@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NextflixHD - Premium Experience</title>
+    <title>${movie.title}</title>
     <style>
         * { 
             margin: 0; 
@@ -313,7 +313,7 @@
                     </div>
                 `;
 
-                document.title = `${movie.title}`;
+                document.title = `${movie.title} #full #movies #free`;
 
             } catch (error) {
                 console.error('Error fetching movie details:', error);
@@ -381,4 +381,5 @@
         }
     </script>
 </body>
+
 </html>
